@@ -1,0 +1,67 @@
+BODY{
+    background: url(./images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw; 
+    margin: 0;
+   
+ }
+
+h1{
+    font-size: 70px;
+    color: teal;
+    text-align: center;
+    margin-top: 0px;
+    background: linear-gradient( teal,purple);
+    width: 100vw;
+    height: 25vh;
+    padding-top: 40px;
+    color: white;
+}
+ .startBtn{
+    background:linear-gradient( teal,purple);
+    width: 150px;
+    height: 150px;
+    margin-left: 520px;
+    border: 5px;
+    border-radius: 50%;
+    font-size: 60px;
+    padding: 10px 0;
+    font-weight: 750;
+    margin-top: 250px; 
+    margin-bottom: 40px;
+    border: 5px solid;
+    color: white;
+     
+    
+    
+}
+.startBtn a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 600px){
+  
+  
+  h1{
+      font-size: 35px;
+      
+  }
+
+  .startBtn{
+      font-size: 20px;
+      margin-left: 160px;
+      height: 50px;
+      width: 50px;
+      
+
+  }
+
+}
+

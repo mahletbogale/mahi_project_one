@@ -1,8 +1,11 @@
+
+/* flash card styling */
+
 body{
     background: url(./images/teddyBear.jpg)  ;
     background-attachment: fixed;
     background-position: center;
-     justify-content: center;
+    justify-content: center;
     align-content: center; 
     background-size: cover;
     min-height: 100vh;
@@ -96,7 +99,7 @@ body{
     
         
 
-
+/* to have responsiveness */
 
 
 

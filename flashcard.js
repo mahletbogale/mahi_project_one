@@ -11,16 +11,22 @@ playBtn.addEventListener('click',getPicture);
 // grabing word area and assign it to new variable
 // grabing card(means DIV which holds both image and word DIVs) area and assign it to new variable
 
-    
+    // and then
+// if button clicked assign image and word to the card area
+// if button click give card area background color and border size for the word to have clear visibility
+// and to make it look good
+
+
+
+function getPicture(event){ 
+
 let imageArea = document.getElementById('cardImg');
 let  eventBtn= event.target.id;
 let wordA =document.querySelector('.word');
 let cardA =document.querySelector('.word_card_container');
 
 
-// if button clicked assign image and word to the card area
-// if button click give card area background color and border size for the word to have clear visibility
-// and to make it look good
+
 
 
 if(eventBtn){
@@ -179,7 +185,7 @@ if(eventBtn==='btnZ'){
     wordA.innerText ='Zebra';
 }
 
-
+}
     
 
 

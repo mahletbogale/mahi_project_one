@@ -30,145 +30,137 @@ function getPicture(event) {
     cardA.style.borderColor = "white";
     cardA.style.borderRadius = "5px";
   }
-//    else {
-//     cardA.style.background = "none";
-//     cardA.style.border = "none";
-//     cardA.style.borderColor = "none";
-//     cardA.style.borderRadius = "none";
-//     imageC.style.height = "none";
-//     imageC.style.width = "none";
-   
-//   }
+
 
   if (eventBtn === "btnA") {
     event.preventDefault();
-    imageArea.src = "./images/apple.jpg";
+    imageArea.src = "../images/apple.jpg";
     wordA.innerText = "Apple";
   }
 
   if (eventBtn === "btnB") {
     event.preventDefault();
-    imageArea.src = "./images/bird.jpg";
+    imageArea.src = "../images/bird.jpg";
     wordA.innerText = "Bird";
   }
 
   if (eventBtn === "btnC") {
-    imageArea.src = "./images/cat.jpg";
+    imageArea.src = "../images/cat.jpg";
     wordA.innerText = "Cat";
   }
 
   if (eventBtn === "btnD") {
-    imageArea.src = "./images/dog.png";
+    imageArea.src = "../images/dog.png";
     wordA.innerText = "Dog";
   }
 
   if (eventBtn === "btnE") {
-    imageArea.src = "./images/elephant.jpg";
+    imageArea.src = "../images/elephant.jpg";
     wordA.innerText = "Elephant";
   }
 
   if (eventBtn === "btnF") {
-    imageArea.src = "./images/fish.jpg";
+    imageArea.src = "../images/fish.jpg";
     wordA.innerText = "Fish";
   }
 
   if (eventBtn === "btnG") {
-    imageArea.src = "./images/goat.jpg";
+    imageArea.src = "../images/goat.jpg";
     wordA.innerText = "Goat";
   }
 
   if (eventBtn === "btnH") {
-    imageArea.src = "./images/horse.jpg";
+    imageArea.src = "../images/horse.jpg";
     wordA.innerText = "Horse";
   }
 
   if (eventBtn === "btnI") {
-    imageArea.src = "./images/ice-cream.jpg";
+    imageArea.src = "../images/ice-cream.jpg";
     wordA.innerText = "Ice Cream";
   }
 
   if (eventBtn === "btnJ") {
-    imageArea.src = "./images/jam.jpg";
+    imageArea.src = "../images/jam.jpg";
     wordA.innerText = "Jam";
   }
 
   if (eventBtn === "btnK") {
-    imageArea.src = "./images/kangaroo.jpg";
+    imageArea.src = "../images/kangaroo.jpg";
     wordA.innerText = "Kangaroo";
   }
 
   if (eventBtn === "btnL") {
-    imageArea.src = "./images/lion.jpg";
+    imageArea.src = "../images/lion.jpg";
     wordA.innerText = "Lion";
   }
 
   if (eventBtn === "btnM") {
-    imageArea.src = "./images/monkey.jpg";
+    imageArea.src = "../images/monkey.jpg";
     wordA.innerText = "Monkey";
   }
 
   if (eventBtn === "btnN") {
-    imageArea.src = "./images/nest.jpg";
+    imageArea.src = "../images/nest.jpg";
     wordA.innerText = "Nest";
   }
 
   if (eventBtn === "btnO") {
-    imageArea.src = "./images/orange.jpg";
+    imageArea.src = "../images/orange.jpg";
     wordA.innerText = "Orange";
   }
 
   if (eventBtn === "btnP") {
-    imageArea.src = "./images/panda.jpg";
+    imageArea.src = "../images/panda.jpg";
     wordA.innerText = "Panda";
   }
 
   if (eventBtn === "btnQ") {
-    imageArea.src = "./images/quail.jpg";
+    imageArea.src = "../images/quail.jpg";
     wordA.innerText = "Quail";
   }
 
   if (eventBtn === "btnR") {
-    imageArea.src = "./images/rabbit.jpg";
+    imageArea.src = "../images/rabbit.jpg";
     wordA.innerText = "Rabbit";
   }
 
   if (eventBtn === "btnS") {
-    imageArea.src = "./images/star.jpg";
+    imageArea.src = "../images/star.jpg";
     wordA.innerText = "Star";
   }
 
   if (eventBtn === "btnT") {
-    imageArea.src = "./images/tiger.jpg";
+    imageArea.src = "../images/tiger.jpg";
     wordA.innerText = "Tiger";
   }
 
   if (eventBtn === "btnU") {
-    imageArea.src = "./images/umbrella.jpg";
+    imageArea.src = "../images/umbrella.jpg";
     wordA.innerText = "Umbrella";
   }
 
   if (eventBtn === "btnV") {
-    imageArea.src = "./images/violin.jpg";
+    imageArea.src = "../images/violin.jpg";
     wordA.innerText = "Violin";
   }
 
   if (eventBtn === "btnW") {
-    imageArea.src = "./images/watch.jpg";
+    imageArea.src = "../images/watch.jpg";
     wordA.innerText = "Watch";
   }
 
   if (eventBtn === "btnX") {
-    imageArea.src = "./images/xenia.jpg";
+    imageArea.src = "../images/xenia.jpg";
     wordA.innerText = "Xenia";
   }
 
   if (eventBtn === "btnY") {
-    imageArea.src = "./images/yak.jpg";
+    imageArea.src = "../images/yak.jpg";
     wordA.innerText = "Yak";
   }
 
   if (eventBtn === "btnZ") {
-    imageArea.src = "./images/zebra.jpg";
+    imageArea.src = "../images/zebra.jpg";
     wordA.innerText = "Zebra";
   }
 }

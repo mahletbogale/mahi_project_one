@@ -17,6 +17,7 @@ h1{
     font-size: 70px;
     color: teal;
     text-align: center;
+    position: fixed;
     margin-top: 0px;
     background: linear-gradient( teal,purple);
     width: 100vw;

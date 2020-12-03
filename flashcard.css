@@ -10,7 +10,8 @@ body{
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw; 
-    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     
    
     
@@ -59,11 +60,11 @@ body{
 
 
 
-#cardImg{
+/* #cardImg{
    
-    width : 300px;
-    height :  300px;
- }
+    /* width : 300px;
+    height :  300px; */
+  
  
     
 

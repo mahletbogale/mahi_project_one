@@ -35,7 +35,9 @@ if(eventBtn){
     cardA.style.border ="10px  solid" ;
     cardA.style.borderColor ="white";
     cardA.style.borderRadius ="5px";
-
+    imageArea.style.width ="300px";
+    imageArea.style.height ="300px";
+    
 }
 
 
@@ -45,6 +47,7 @@ if(eventBtn ==='btnA'){
 
     imageArea.src ='./images/apple.jpg';
     wordA.innerText ='Apple';
+   
     
 }
 

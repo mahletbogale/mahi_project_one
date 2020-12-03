@@ -38,7 +38,7 @@ body{
      padding-bottom: 60px;
      padding-left: 80px;
      padding-right: 80px;
-
+    position: fixed;
      margin: 0 auto;
     
 }
@@ -55,6 +55,7 @@ body{
     font-size: 30px;
     border-radius: 5px;
     cursor: pointer;
+    position: fixed;
 }
 
 

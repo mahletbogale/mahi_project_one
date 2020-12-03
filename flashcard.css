@@ -1,151 +1,121 @@
-
 /* flash card styling */
 
-body{
-    background: url(./images/teddyBear.jpg)  ;
-    background-attachment: fixed;
-    background-position: center;
-    justify-content: center;
-    align-content: center; 
-    background-size: cover;
-    min-height: 100vh;
-    min-width: 100vw; 
-    
-    
-   
-    
+body {
+  background: url(./images/teddyBear.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
 }
-.word_card_container{
-    display: grid;
-    grid-template-rows:repeat(2,  1fr);
-    height: 330px;
-    width: 350px; 
-    margin: 0 auto  ;
-    margin-top: 40px;
-    
-    
-    
-   
+.word_card_container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 330px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: fixed;
+  margin-left: 340px;
 }
 
-
-.button_container{
-     display: grid;
-     grid-template-columns:repeat(13 ,1fr);
-     grid-template-rows: repeat(2 ,1fr);
-     gap:1em;
-     padding-top: 60px ;
-     padding-bottom: 60px;
-     padding-left: 80px;
-     padding-right: 80px;
-    position: fixed;
-     margin: 0 auto;
-    
+.button_container {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 180px;
+  padding-right: 80px;
+  position: fixed;
+  margin: 0 auto;
+  margin-top: 360px;
 }
 
-
-
-.button{
-    border: 5px solid;
-    margin-bottom: -1px;
-    margin-right: -1px;
-    text-align: center;
-    background:linear-gradient( purple, teal);
-    color: white;
-    font-size: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    position: fixed;
+.button {
+  border: 5px solid;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  text-align: center;
+  background: linear-gradient(purple, teal);
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-
-#cardImg{
-   
-    width : 350px;
-   
- }
- 
-    
-
-
-.word{
-    text-align: center;
-    font-size: 40px;
-    color: purple;
-    padding-top: 15px; 
-    
-    
+#cardImg {
+  width: 350px;
 }
-    
-.closeBtn{
-    
-    background:linear-gradient( purple, teal);
-    margin: 0 auto;
-    border: 5px solid;
-    border-radius: 5px;
-    font-size: 40px;
-    color: white;
-    padding: 15px 15px;
-    margin-left: 535px;
-    margin-bottom: 40px;
-       
-             
+
+.word {
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+  padding-top: 15px;
 }
- 
-.closeBtn a{
-        text-decoration: none;
-        color:white
+
+.closeBtn {
+  background: linear-gradient(purple, teal);
+  /* margin: 0 auto; */
+  border: 5px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 465px;
+  margin-bottom: 0px;
+  position: fixed;
+  margin-top: 550px;
 }
-    
-        
+
+.closeBtn a {
+  text-decoration: none;
+  color: white;
+}
 
 /* to have responsiveness */
 
+@media only screen and (max-width: 600px) {
+  .word_card_container {
+    height: 165px;
+    width: 149px;
+    margin-left: 105px;
+  }
 
+  .button_container {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    font-size: 20px;
 
-@media only screen and (max-width: 600px){
-  
-
-   .word_card_container{
-        height: 165px;
-        width: 149px; 
-        margin-left: 105px;
-        
-    }
-     
-.button_container{
-    
-    grid-template-columns:repeat(5,1fr);
-    grid-template-rows: repeat(6,1fr);
-     font-size: 20px;
-  
-    
-}
-.word{
+    padding-left: 80px;
+    padding-right: 80px;
+    position: fixed;
+    margin: 0 auto;
+    margin-top: 190px;
+  }
+  .word {
     padding-top: 5px;
     font-size: 30px;
-}
-.button{
+  }
+  .button {
     font-size: 15px;
     border-radius: 5px;
     height: 20px;
     width: 20px;
-}
+  }
 
-
-  #cardImg{
-
-    width : 150px;
+  #cardImg {
+    width: 150px;
     /* height :  150px; */
+  }
 
-}
-
-.closeBtn{
-    
-margin-left: 150px;
-font-size: 20px;
-    }
-         
-
+  .closeBtn {
+    margin-left: 150px;
+    font-size: 12px;
+    margin-top: 550px;
+  }
 }

@@ -3,11 +3,11 @@
 # project choice
 
 
- Flash Cards.
+ Flashcards.
 
 ## project description
   
-My APP is called LuLubaby First Word .It is a Flash Cards 
+My APP is called LuLubaby First Word .It is a Flashcards 
 
 for babies with the list of Alphabets from A to Z .And when
 

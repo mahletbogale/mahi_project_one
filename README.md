@@ -1,11 +1,11 @@
 
 
-# project choice
+# Project Choice
 
 
- Flashcards.
+ Flashcards
 
-## project description
+## Project Description
   
 My APP is called LuLubaby First Word .It is a Flashcards 
 
@@ -16,7 +16,7 @@ you click each Alphabet character the card with a picture of an Item with
 the name that corresponds to the alphabet character will be displayed.
 
     
-   ## Wire Frames
+   ## Wireframes
 
 - FrontPage
 

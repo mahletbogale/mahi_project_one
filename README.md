@@ -35,7 +35,7 @@ the name that corresponds to the alphabet character will be displayed.
 
 
 
-
+<img src ="./images/Screen Shot 2021-02-24 at 5.09.59 PM.png">
 
 
 
